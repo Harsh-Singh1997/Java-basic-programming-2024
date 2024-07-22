@@ -1,0 +1,22 @@
+package javaprogram1;
+
+public class SecondJavaProgram {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Java Program with main class");
+		
+		for(int i=1;i<=5;i++) {
+		
+		System.out.println("For loop statement: " + i);
+
+	}
+		int j = 1;
+		while(j<=5) {
+			System.out.println("While loop statement: " + j);
+			j++;
+		}
+	
+	}
+
+}

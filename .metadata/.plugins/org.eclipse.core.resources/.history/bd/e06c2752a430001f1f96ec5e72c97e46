@@ -1,0 +1,45 @@
+package javaprogram1;
+
+public class SecondJavaProgram {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Java Program with main class");
+		System.out.print('\n');
+		
+		for(int i=1;i<=5;i++) {
+		
+		System.out.println("For loop statement: " + i);
+
+	}
+		System.out.print('\n');
+		
+		int j = 1;
+		while(j<=5) {
+			System.out.println("While loop statement: " + j);
+			j++;
+		}
+		System.out.print('\n');
+		
+		int k=1;
+		do {
+			System.out.println("Do While statement: " + k);
+			k++;
+			
+		}
+		while(k<=5);
+		
+		for(int a =1;a<=10;a++) {
+			if(a%2==0)
+			{
+				System.out.println(a + " is an EVEN number");
+			}
+			else {
+				System.out.println(a + " is an ODD number");
+			}
+		}
+		
+	
+	}
+
+}
